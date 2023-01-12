@@ -1,0 +1,882 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+17:30:27.0 (141104)|USER_INFO|[EXTERNAL]|0058s000002TeYn|sumedha.joshi@bluepineapple.io.nobleoakuat|Australian Eastern Standard Time|GMT+11:00
+17:30:27.0 (186998)|EXECUTION_STARTED
+17:30:27.0 (194514)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+17:30:27.0 (224719)|CODE_UNIT_STARTED|[EXTERNAL]|01q7F000000YYdf|UpdateQuoteonNewOppty on Opportunity trigger event BeforeUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.0 (279455)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.0 (390400)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.0 (1882223)|HEAP_ALLOCATE|[79]|Bytes:3
+17:30:27.0 (1928335)|HEAP_ALLOCATE|[84]|Bytes:152
+17:30:27.0 (1944187)|HEAP_ALLOCATE|[399]|Bytes:408
+17:30:27.0 (1958935)|HEAP_ALLOCATE|[412]|Bytes:408
+17:30:27.0 (1971059)|HEAP_ALLOCATE|[520]|Bytes:48
+17:30:27.0 (2020397)|HEAP_ALLOCATE|[139]|Bytes:6
+17:30:27.0 (2034582)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:31
+17:30:27.0 (2051491)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.0 (2059662)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.0 (2127739)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x39ee70b5
+17:30:27.0 (2180594)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.0 (2186714)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.0 (2199113)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x39ee70b5
+17:30:27.0 (2207732)|STATEMENT_EXECUTE|[7]
+17:30:27.0 (2210211)|STATEMENT_EXECUTE|[9]
+17:30:27.0 (2213443)|HEAP_ALLOCATE|[9]|Bytes:42
+17:30:27.0 (3760321)|VARIABLE_SCOPE_BEGIN|[2]|RecursiveTriggerCheck.isFirstTime|Boolean|false|true
+17:30:27.0 (3773800)|VARIABLE_SCOPE_BEGIN|[3]|RecursiveTriggerCheck.isFirstTimeUpdate|Boolean|false|true
+17:30:27.0 (3841140)|METHOD_ENTRY|[1]|01p0o00000GwmEf|RecursiveTriggerCheck.RecursiveTriggerCheck()
+17:30:27.0 (3847512)|STATEMENT_EXECUTE|[1]
+17:30:27.0 (3851389)|STATEMENT_EXECUTE|[1]
+17:30:27.0 (3853272)|STATEMENT_EXECUTE|[2]
+17:30:27.0 (3879796)|HEAP_ALLOCATE|[52]|Bytes:5
+17:30:27.0 (3909312)|HEAP_ALLOCATE|[58]|Bytes:5
+17:30:27.0 (3917943)|HEAP_ALLOCATE|[66]|Bytes:7
+17:30:27.0 (3941343)|HEAP_ALLOCATE|[2]|Bytes:5
+17:30:27.0 (3954009)|VARIABLE_ASSIGNMENT|[2]|RecursiveTriggerCheck.isFirstTime|true
+17:30:27.0 (3958492)|STATEMENT_EXECUTE|[3]
+17:30:27.0 (3961975)|HEAP_ALLOCATE|[3]|Bytes:5
+17:30:27.0 (3968588)|VARIABLE_ASSIGNMENT|[3]|RecursiveTriggerCheck.isFirstTimeUpdate|true
+17:30:27.0 (3974560)|METHOD_EXIT|[1]|RecursiveTriggerCheck
+17:30:27.0 (4038745)|HEAP_ALLOCATE|[9]|Bytes:4
+17:30:27.0 (4058724)|HEAP_ALLOCATE|[9]|Bytes:46
+17:30:27.0 (4087475)|USER_DEBUG|[9]|DEBUG|RecursiveTriggerCheck.isFirstTimeUpdate-->true
+17:30:27.0 (4096259)|STATEMENT_EXECUTE|[10]
+17:30:27.0 (4099016)|HEAP_ALLOCATE|[10]|Bytes:36
+17:30:27.0 (4116774)|HEAP_ALLOCATE|[10]|Bytes:4
+17:30:27.0 (4125865)|HEAP_ALLOCATE|[10]|Bytes:40
+17:30:27.0 (4133243)|USER_DEBUG|[10]|DEBUG|RecursiveTriggerCheck.isFirstTime-->true
+17:30:27.0 (4140134)|STATEMENT_EXECUTE|[12]
+17:30:27.0 (4142660)|HEAP_ALLOCATE|[12]|Bytes:24
+17:30:27.0 (4169784)|HEAP_ALLOCATE|[12]|Bytes:82
+17:30:27.0 (4176931)|SYSTEM_METHOD_ENTRY|[1]|Test.Test()
+17:30:27.0 (4180475)|STATEMENT_EXECUTE|[1]
+17:30:27.0 (4185770)|SYSTEM_METHOD_EXIT|[1]|Test
+17:30:27.0 (4194768)|METHOD_ENTRY|[12]||System.Test.isRunningTest()
+17:30:27.0 (4221758)|METHOD_EXIT|[12]||System.Test.isRunningTest()
+17:30:27.0 (4232002)|HEAP_ALLOCATE|[12]|Bytes:5
+17:30:27.0 (4241048)|HEAP_ALLOCATE|[12]|Bytes:29
+17:30:27.0 (4248808)|USER_DEBUG|[12]|DEBUG|Test.isRunningTest() -->false
+17:30:27.0 (4341858)|STATEMENT_EXECUTE|[57]
+17:30:27.0 (4344338)|STATEMENT_EXECUTE|[59]
+17:30:27.0 (4347405)|HEAP_ALLOCATE|[59]|Bytes:10
+17:30:27.0 (4359058)|USER_DEBUG|[59]|DEBUG|Triggered.
+17:30:27.0 (4662024)|HEAP_ALLOCATE|[61]|Bytes:5
+17:30:27.0 (4703327)|HEAP_ALLOCATE|[61]|Bytes:4
+17:30:27.0 (4716316)|VARIABLE_SCOPE_BEGIN|[61]|opp|Opportunity|true|false
+17:30:27.0 (59807249)|VARIABLE_ASSIGNMENT|[61]|opp|{"LastModifiedDate":"2022-12-22T10:01:30.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0.0,"SystemModstamp":"2022-12-22T10:01:30.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x10016896
+17:30:27.0 (59866995)|STATEMENT_EXECUTE|[61]
+17:30:27.0 (59870246)|STATEMENT_EXECUTE|[63]
+17:30:27.0 (60125183)|VARIABLE_SCOPE_BEGIN|[63]|opportunityRecord|Opportunity|true|false
+17:30:27.0 (63340141)|VARIABLE_ASSIGNMENT|[63]|opportunityRecord|{"LastModifiedDate":"2022-12-22T10:01:30.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2022-12-22T10:01:30.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Last_Called__c":"2022-12-22T09:51:43.000Z","Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x3d6d93d
+17:30:27.0 (63385038)|STATEMENT_EXECUTE|[66]
+17:30:27.0 (63394673)|HEAP_ALLOCATE|[66]|Bytes:20
+17:30:27.0 (63424003)|HEAP_ALLOCATE|[66]|Bytes:24
+17:30:27.0 (63465863)|USER_DEBUG|[66]|DEBUG|Old Opp App Status: null
+17:30:27.0 (63476985)|STATEMENT_EXECUTE|[67]
+17:30:27.0 (63479631)|HEAP_ALLOCATE|[67]|Bytes:20
+17:30:27.0 (63491129)|HEAP_ALLOCATE|[67]|Bytes:24
+17:30:27.0 (63504238)|USER_DEBUG|[67]|DEBUG|New Opp App Status: null
+17:30:27.0 (63526002)|STATEMENT_EXECUTE|[69]
+17:30:27.0 (63535395)|STATEMENT_EXECUTE|[73]
+17:30:27.0 (63579677)|STATEMENT_EXECUTE|[76]
+17:30:27.0 (63615949)|HEAP_ALLOCATE|[61]|Bytes:5
+17:30:27.0 (63637153)|VARIABLE_ASSIGNMENT|[61]|opp|null|
+17:30:27.63 (63652696)|CUMULATIVE_LIMIT_USAGE
+17:30:27.63 (63652696)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:30:27.63 (63652696)|CUMULATIVE_LIMIT_USAGE_END
+
+17:30:27.0 (63857630)|CODE_UNIT_FINISHED|UpdateQuoteonNewOppty on Opportunity trigger event BeforeUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.0 (82036220)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:Opportunity:0068s000002p3SX
+17:30:27.0 (82058465)|VALIDATION_RULE|03d7F0000008b1i|BE_Insurance_Info_Required
+17:30:27.0 (82403264)|VALIDATION_FORMULA|OR(
+ISBLANK(BE_Sum_Insured__c),
+ISPICKVAL(BE_Waiting_Period__c, "") 
+)
+&&Business_Expenses__c = TRUE|Business_Expenses__c=0 , BE_Waiting_Period__c=null , BE_Sum_Insured__c=null
+17:30:27.0 (82414346)|VALIDATION_PASS
+17:30:27.0 (82417138)|VALIDATION_RULE|03d7F0000008b1n|IP_Insurance_Info_Required
+17:30:27.0 (82636231)|VALIDATION_FORMULA|OR(
+ISBLANK(IP_Sum_Insured__c),
+ISPICKVAL(IP_Waiting_Period__c, ""),
+ISPICKVAL(IP_Benefit_Period__c, "") 
+)
+&&Income_Protection_Salary_Continuance__c = TRUE|IP_Benefit_Period__c=null , IP_Waiting_Period__c=null , IP_Sum_Insured__c=null , Income_Protection_Salary_Continuance__c=0
+17:30:27.0 (82645602)|VALIDATION_PASS
+17:30:27.0 (82648119)|VALIDATION_RULE|03d7F0000008b1s|Life_Insurance_Info_Required
+17:30:27.0 (82749929)|VALIDATION_FORMULA|AND(
+ISBLANK(Life_Sum_Insured__c),
+Life_Insurance__c = TRUE
+)|Life_Sum_Insured__c=null , Life_Insurance__c=0
+17:30:27.0 (82756004)|VALIDATION_PASS
+17:30:27.0 (82758176)|VALIDATION_RULE|03d7F0000008b1d|Residing_State_Required
+17:30:27.0 (82866766)|VALIDATION_FORMULA|ISPICKVAL(Residing_State__c, "")|Residing_State__c=NT
+17:30:27.0 (82875064)|VALIDATION_PASS
+17:30:27.0 (82877203)|VALIDATION_RULE|03d7F0000008fVZ|TPD_Any_Insurance_Info_Required
+17:30:27.0 (83001082)|VALIDATION_FORMULA|AND
+(
+TPD_Any__c = TRUE,
+ISBLANK(TPD_Any_Sum_Insured__c)
+)|TPD_Any__c=0 , TPD_Any_Sum_Insured__c=0
+17:30:27.0 (83009027)|VALIDATION_PASS
+17:30:27.0 (83011378)|VALIDATION_RULE|03d7F0000008fVa|TPD_Own_Insurance_Info_Required
+17:30:27.0 (83097934)|VALIDATION_FORMULA|AND
+(
+TPD_Own__c = TRUE,
+ISBLANK(TPD_Own_Sum_Insured__c)
+)|TPD_Own_Sum_Insured__c=null , TPD_Own__c=0
+17:30:27.0 (83104203)|VALIDATION_PASS
+17:30:27.0 (83106221)|VALIDATION_RULE|03d7F0000008b22|Trauma_Insurance_Info_Required
+17:30:27.0 (83217134)|VALIDATION_FORMULA|AND(
+ISBLANK(Trauma_Sum_Insured__c),
+Trauma_Critical_Illness__c = TRUE
+)|Trauma_Critical_Illness__c=0 , Trauma_Sum_Insured__c=null
+17:30:27.0 (83224656)|VALIDATION_PASS
+17:30:27.0 (83226615)|VALIDATION_RULE|03d7F0000008cne|Communication_Required
+17:30:27.0 (83436349)|VALIDATION_FORMULA|AND( 
+ISBLANK(Account.PersonContact.Phone),
+ISBLANK( Account.PersonContact.HomePhone),
+ISBLANK( Account.PersonContact.MobilePhone ),
+ISBLANK( Account.PersonContact.Email)
+)|Account.PersonContact.Email=anishmarathe007@gmail.com , Account.PersonContact.MobilePhone=null , Account.PersonContact.Phone=null , Account.PersonContact.HomePhone=null
+17:30:27.0 (83445623)|VALIDATION_PASS
+17:30:27.0 (83447919)|VALIDATION_RULE|03d7F0000008cnK|DOB_on_PA_Required
+17:30:27.0 (83548829)|VALIDATION_FORMULA|ISBLANK(Account.PersonContact.Date_of_Birth__c)|Account.PersonContact.Date_of_Birth__c=1967-09-14 00:00:00
+17:30:27.0 (83555306)|VALIDATION_PASS
+17:30:27.0 (83557394)|VALIDATION_RULE|03d7F0000008cnF|Email_on_PA_Required
+17:30:27.0 (83631846)|VALIDATION_FORMULA|Account.PersonContact.Email= ""|Account.PersonContact.Email=anishmarathe007@gmail.com
+17:30:27.0 (83637304)|VALIDATION_PASS
+17:30:27.0 (83639304)|VALIDATION_RULE|03d7F0000008fVY|First_Name_Required
+17:30:27.0 (85003234)|VALIDATION_FORMULA|Account.PersonContact.FirstName = ""|Account.PersonContact.FirstName=Will
+17:30:27.0 (85012930)|VALIDATION_PASS
+17:30:27.0 (85015147)|VALIDATION_RULE|03d7F0000008cnA|Gender_on_PA_Required
+17:30:27.0 (85129243)|VALIDATION_FORMULA|ISPICKVAL(Account.PersonContact.Gender__c,"")|Account.PersonContact.Gender__c=Female
+17:30:27.0 (85135365)|VALIDATION_PASS
+17:30:27.0 (85137333)|VALIDATION_RULE|03d7F0000008g46|Lead_Source_Required
+17:30:27.0 (85208015)|VALIDATION_FORMULA|ISPICKVAL(LeadSource,"")|LeadSource=RAC - Canstar - Life
+17:30:27.0 (85213471)|VALIDATION_PASS
+17:30:27.0 (85215392)|VALIDATION_RULE|03d5h000000oPXI|Life_Decreasing_Reducing_Cover_Limit
+17:30:27.0 (85311265)|VALIDATION_FORMULA|OR(
+ Life_Decreasing_Reducing_Cover__c > 0.10,
+ Life_Decreasing_Reducing_Cover__c < 0.0)|Life_Decreasing_Reducing_Cover__c=null
+17:30:27.0 (85318443)|VALIDATION_PASS
+17:30:27.0 (85320533)|VALIDATION_RULE|03d7F0000008cnP|Occupation_Category_on_PA_Required
+17:30:27.0 (86524875)|VALIDATION_FORMULA|ISPICKVAL(Account.PersonContact.Occupation_Category__c,"")|Account.PersonContact.Occupation_Category__c=Medium blue collar
+17:30:27.0 (86536354)|VALIDATION_PASS
+17:30:27.0 (86538856)|VALIDATION_RULE|03d7F0000008cnU|Smoker_Status_on_PA_Required
+17:30:27.0 (87761366)|VALIDATION_FORMULA|ISPICKVAL(Account.Smoker__c ,"")|Account.Smoker__c=Non-smoker
+17:30:27.0 (87772688)|VALIDATION_PASS
+17:30:27.0 (87774928)|VALIDATION_RULE|03d5h000000oPXJ|TPD_Any_Decreasing_Reducing_Cover_Limit
+17:30:27.0 (87895463)|VALIDATION_FORMULA|OR(
+ TPD_Any_Decreasing_Reducing_Cover__c > 0.10,
+ TPD_Any_Decreasing_Reducing_Cover__c < 0.0)|TPD_Any_Decreasing_Reducing_Cover__c=null
+17:30:27.0 (87902379)|VALIDATION_PASS
+17:30:27.0 (87904426)|VALIDATION_RULE|03d5h000000oPXK|TPD_Own_Decreasing_Reducing_Cover_Limit
+17:30:27.0 (87976360)|VALIDATION_FORMULA|OR(
+ TPD_Own_Decreasing_Reducing_Cover__c > 0.10,
+ TPD_Own_Decreasing_Reducing_Cover__c < 0.0)|TPD_Own_Decreasing_Reducing_Cover__c=null
+17:30:27.0 (87982120)|VALIDATION_PASS
+17:30:27.0 (87984239)|VALIDATION_RULE|03d5h000000oPXL|Trauma_Decreasing_Reducing_Cover_Limit
+17:30:27.0 (88051447)|VALIDATION_FORMULA|OR(
+ Trauma_Decreasing_Reducing_Cover__c > 0.10,
+ Trauma_Decreasing_Reducing_Cover__c < 0.0)|Trauma_Decreasing_Reducing_Cover__c=null
+17:30:27.0 (88057164)|VALIDATION_PASS
+17:30:27.0 (88067047)|CODE_UNIT_FINISHED|Validation:Opportunity:0068s000002p3SX
+17:30:27.0 (245626922)|CODE_UNIT_STARTED|[EXTERNAL]|01q7F000000YYdf|UpdateQuoteonNewOppty on Opportunity trigger event AfterUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.0 (245705145)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.0 (245766060)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.0 (245895630)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.0 (245907801)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.0 (245948637)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x7aa11c33
+17:30:27.0 (245984175)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.0 (246013983)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.0 (246028803)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x7aa11c33
+17:30:27.0 (246036422)|STATEMENT_EXECUTE|[7]
+17:30:27.0 (246038396)|STATEMENT_EXECUTE|[9]
+17:30:27.0 (246079364)|HEAP_ALLOCATE|[9]|Bytes:4
+17:30:27.0 (246096503)|HEAP_ALLOCATE|[9]|Bytes:46
+17:30:27.0 (246116050)|USER_DEBUG|[9]|DEBUG|RecursiveTriggerCheck.isFirstTimeUpdate-->true
+17:30:27.0 (246125998)|STATEMENT_EXECUTE|[10]
+17:30:27.0 (246134838)|HEAP_ALLOCATE|[10]|Bytes:4
+17:30:27.0 (246143338)|HEAP_ALLOCATE|[10]|Bytes:40
+17:30:27.0 (246149990)|USER_DEBUG|[10]|DEBUG|RecursiveTriggerCheck.isFirstTime-->true
+17:30:27.0 (246156328)|STATEMENT_EXECUTE|[12]
+17:30:27.0 (246164660)|METHOD_ENTRY|[12]||System.Test.isRunningTest()
+17:30:27.0 (246183471)|METHOD_EXIT|[12]||System.Test.isRunningTest()
+17:30:27.0 (246192801)|HEAP_ALLOCATE|[12]|Bytes:5
+17:30:27.0 (246200951)|HEAP_ALLOCATE|[12]|Bytes:29
+17:30:27.0 (246208123)|USER_DEBUG|[12]|DEBUG|Test.isRunningTest() -->false
+17:30:27.0 (246262025)|STATEMENT_EXECUTE|[42]
+17:30:27.0 (246365007)|HEAP_ALLOCATE|[44]|Bytes:5
+17:30:27.0 (246394716)|VARIABLE_SCOPE_BEGIN|[44]|opp|Opportunity|true|false
+17:30:27.0 (249809272)|VARIABLE_ASSIGNMENT|[44]|opp|{"LastModifiedDate":"2023-01-06T06:30:27.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:27.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x1970c7bb
+17:30:27.0 (249859490)|STATEMENT_EXECUTE|[44]
+17:30:27.0 (249862417)|STATEMENT_EXECUTE|[46]
+17:30:27.0 (249957245)|VARIABLE_SCOPE_BEGIN|[46]|opportunityRecord|Opportunity|true|false
+17:30:27.0 (252695252)|VARIABLE_ASSIGNMENT|[46]|opportunityRecord|{"LastModifiedDate":"2022-12-22T10:01:30.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2022-12-22T10:01:30.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Last_Called__c":"2022-12-22T09:51:43.000Z","Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x17bb0832
+17:30:27.0 (252750333)|HEAP_ALLOCATE|[48]|Bytes:17
+17:30:27.0 (252784201)|HEAP_ALLOCATE|[48]|Bytes:13
+17:30:27.0 (252818078)|HEAP_ALLOCATE|[48]|Bytes:29
+17:30:27.0 (252831352)|STATEMENT_EXECUTE|[48]
+17:30:27.0 (252850566)|HEAP_ALLOCATE|[44]|Bytes:5
+17:30:27.0 (252878992)|VARIABLE_ASSIGNMENT|[44]|opp|null|
+17:30:27.252 (252890949)|CUMULATIVE_LIMIT_USAGE
+17:30:27.252 (252890949)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:30:27.252 (252890949)|CUMULATIVE_LIMIT_USAGE_END
+
+17:30:27.0 (253044379)|CODE_UNIT_FINISHED|UpdateQuoteonNewOppty on Opportunity trigger event AfterUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.0 (257761412)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:Opportunity
+17:30:27.0 (275845620)|WF_RULE_EVAL_BEGIN|Workflow
+17:30:27.0 (275915360)|WF_CRITERIA_BEGIN|[Opportunity: Neha - RAC - LI 0068s000002p3SX]|Pendula_Populate_PersonContact_on_Opp301960000000RiI|01Q960000000Cld|ON_ALL_CHANGES|0
+17:30:27.0 (276130856)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]true|Values:
+17:30:27.0 (276150626)|WF_CRITERIA_END|true
+17:30:27.0 (278479565)|WF_CRITERIA_BEGIN|[Opportunity: Neha - RAC - LI 0068s000002p3SX]|Contact_Phone_on_Opp3017F000000gE5Q|01Q7F000000Cr4H|ON_ALL_CHANGES|0
+17:30:27.0 (278581004)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]true|Values:
+17:30:27.0 (278589562)|WF_CRITERIA_END|true
+17:30:27.0 (278606732)|WF_CRITERIA_BEGIN|[Opportunity: Neha - RAC - LI 0068s000002p3SX]|Web_Call_back_event_on_Opp3018s000008aWCt|01Q8s000000Juph|ON_ALL_CHANGES|0
+17:30:27.0 (278652214)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]true|Values:
+17:30:27.0 (278657720)|WF_CRITERIA_END|true
+17:30:27.0 (278668301)|WF_CRITERIA_BEGIN|[Opportunity: Neha - RAC - LI 0068s000002p3SX]|Map_Channel_Category_on_Opp3017F000000K0z4|01Q8s000000Jfqf|ON_ALL_CHANGES|0
+17:30:27.0 (278705009)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]true|Values:
+17:30:27.0 (278710500)|WF_CRITERIA_END|true
+17:30:27.0 (278738507)|WF_SPOOL_ACTION_BEGIN|Workflow
+17:30:27.0 (278787788)|WF_ACTION| Flow Trigger: 4;
+17:30:27.0 (278793667)|WF_RULE_EVAL_END
+17:30:27.284 (284509831)|FLOW_CREATE_INTERVIEW_BEGIN|00D8s000000zTGP|3007F000000g27R|3017F000000gE5Q
+17:30:27.284 (285685106)|FLOW_CREATE_INTERVIEW_END|26266bb4dffaf7399b7f11932fc918585737a18-14d6|Contact Phone on Opp
+17:30:27.0 (285757076)|WF_FLOW_ACTION_BEGIN|09L7F000000gCN3
+17:30:27.286 (286451234)|FLOW_START_INTERVIEWS_BEGIN|1
+17:30:27.286 (286507528)|FLOW_START_INTERVIEW_BEGIN|26266bb4dffaf7399b7f11932fc918585737a18-14d6|Contact Phone on Opp
+17:30:27.286 (295931333)|FLOW_START_INTERVIEW_END|26266bb4dffaf7399b7f11932fc918585737a18-14d6|Contact Phone on Opp
+17:30:27.428 (428363893)|CODE_UNIT_STARTED|[EXTERNAL]|01q7F000000YYdf|UpdateQuoteonNewOppty on Opportunity trigger event BeforeUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.428 (428447380)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.428 (428500169)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.428 (428586240)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.428 (428597720)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.428 (428672150)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x6fd243de
+17:30:27.428 (428707319)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.428 (428713349)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.428 (428724752)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x6fd243de
+17:30:27.428 (428732489)|STATEMENT_EXECUTE|[7]
+17:30:27.428 (428734942)|STATEMENT_EXECUTE|[9]
+17:30:27.428 (428775366)|HEAP_ALLOCATE|[9]|Bytes:4
+17:30:27.428 (428792297)|HEAP_ALLOCATE|[9]|Bytes:46
+17:30:27.428 (428811096)|USER_DEBUG|[9]|DEBUG|RecursiveTriggerCheck.isFirstTimeUpdate-->true
+17:30:27.428 (428821529)|STATEMENT_EXECUTE|[10]
+17:30:27.428 (428830132)|HEAP_ALLOCATE|[10]|Bytes:4
+17:30:27.428 (428843593)|HEAP_ALLOCATE|[10]|Bytes:40
+17:30:27.428 (428852188)|USER_DEBUG|[10]|DEBUG|RecursiveTriggerCheck.isFirstTime-->true
+17:30:27.428 (428858639)|STATEMENT_EXECUTE|[12]
+17:30:27.428 (428866899)|METHOD_ENTRY|[12]||System.Test.isRunningTest()
+17:30:27.428 (428883843)|METHOD_EXIT|[12]||System.Test.isRunningTest()
+17:30:27.428 (428893478)|HEAP_ALLOCATE|[12]|Bytes:5
+17:30:27.428 (428902095)|HEAP_ALLOCATE|[12]|Bytes:29
+17:30:27.428 (428909215)|USER_DEBUG|[12]|DEBUG|Test.isRunningTest() -->false
+17:30:27.428 (428968311)|STATEMENT_EXECUTE|[57]
+17:30:27.428 (428970524)|STATEMENT_EXECUTE|[59]
+17:30:27.428 (428976063)|USER_DEBUG|[59]|DEBUG|Triggered.
+17:30:27.428 (429052061)|HEAP_ALLOCATE|[61]|Bytes:5
+17:30:27.428 (429072024)|HEAP_ALLOCATE|[61]|Bytes:4
+17:30:27.428 (429086860)|VARIABLE_SCOPE_BEGIN|[61]|opp|Opportunity|true|false
+17:30:27.428 (434576471)|VARIABLE_ASSIGNMENT|[61]|opp|{"LastModifiedDate":"2023-01-06T06:30:27.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:27.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x7a429182
+17:30:27.428 (434630280)|STATEMENT_EXECUTE|[61]
+17:30:27.428 (434633267)|STATEMENT_EXECUTE|[63]
+17:30:27.428 (434706492)|VARIABLE_SCOPE_BEGIN|[63]|opportunityRecord|Opportunity|true|false
+17:30:27.428 (437453227)|VARIABLE_ASSIGNMENT|[63]|opportunityRecord|{"LastModifiedDate":"2023-01-06T06:30:27.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:27.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x435b04e0
+17:30:27.428 (437497794)|STATEMENT_EXECUTE|[66]
+17:30:27.428 (437522545)|HEAP_ALLOCATE|[66]|Bytes:24
+17:30:27.428 (437544528)|USER_DEBUG|[66]|DEBUG|Old Opp App Status: null
+17:30:27.428 (437554535)|STATEMENT_EXECUTE|[67]
+17:30:27.428 (437563926)|HEAP_ALLOCATE|[67]|Bytes:24
+17:30:27.428 (437571962)|USER_DEBUG|[67]|DEBUG|New Opp App Status: null
+17:30:27.428 (437590933)|STATEMENT_EXECUTE|[69]
+17:30:27.428 (437599101)|STATEMENT_EXECUTE|[73]
+17:30:27.428 (437628627)|STATEMENT_EXECUTE|[76]
+17:30:27.428 (437652073)|HEAP_ALLOCATE|[61]|Bytes:5
+17:30:27.428 (437670966)|VARIABLE_ASSIGNMENT|[61]|opp|null|
+17:30:27.437 (437685191)|CUMULATIVE_LIMIT_USAGE
+17:30:27.437 (437685191)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 26 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:30:27.437 (437685191)|CUMULATIVE_LIMIT_USAGE_END
+
+17:30:27.428 (437872297)|CODE_UNIT_FINISHED|UpdateQuoteonNewOppty on Opportunity trigger event BeforeUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.443 (443541116)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:Opportunity:0068s000002p3SX
+17:30:27.443 (443560608)|VALIDATION_RULE|03d7F0000008b1i|BE_Insurance_Info_Required
+17:30:27.443 (443915184)|VALIDATION_FORMULA|OR(
+ISBLANK(BE_Sum_Insured__c),
+ISPICKVAL(BE_Waiting_Period__c, "") 
+)
+&&Business_Expenses__c = TRUE|Business_Expenses__c=0 , BE_Waiting_Period__c=null , BE_Sum_Insured__c=null
+17:30:27.443 (443926266)|VALIDATION_PASS
+17:30:27.443 (443929091)|VALIDATION_RULE|03d7F0000008b1n|IP_Insurance_Info_Required
+17:30:27.443 (444143420)|VALIDATION_FORMULA|OR(
+ISBLANK(IP_Sum_Insured__c),
+ISPICKVAL(IP_Waiting_Period__c, ""),
+ISPICKVAL(IP_Benefit_Period__c, "") 
+)
+&&Income_Protection_Salary_Continuance__c = TRUE|IP_Benefit_Period__c=null , IP_Waiting_Period__c=null , IP_Sum_Insured__c=null , Income_Protection_Salary_Continuance__c=0
+17:30:27.443 (444153810)|VALIDATION_PASS
+17:30:27.443 (444156083)|VALIDATION_RULE|03d7F0000008b1s|Life_Insurance_Info_Required
+17:30:27.443 (444264792)|VALIDATION_FORMULA|AND(
+ISBLANK(Life_Sum_Insured__c),
+Life_Insurance__c = TRUE
+)|Life_Sum_Insured__c=null , Life_Insurance__c=0
+17:30:27.443 (444272724)|VALIDATION_PASS
+17:30:27.443 (444274999)|VALIDATION_RULE|03d7F0000008b1d|Residing_State_Required
+17:30:27.443 (444342346)|VALIDATION_FORMULA|ISPICKVAL(Residing_State__c, "")|Residing_State__c=NT
+17:30:27.443 (444348240)|VALIDATION_PASS
+17:30:27.443 (444350278)|VALIDATION_RULE|03d7F0000008fVZ|TPD_Any_Insurance_Info_Required
+17:30:27.443 (444424233)|VALIDATION_FORMULA|AND
+(
+TPD_Any__c = TRUE,
+ISBLANK(TPD_Any_Sum_Insured__c)
+)|TPD_Any__c=0 , TPD_Any_Sum_Insured__c=0
+17:30:27.443 (444430015)|VALIDATION_PASS
+17:30:27.443 (444432174)|VALIDATION_RULE|03d7F0000008fVa|TPD_Own_Insurance_Info_Required
+17:30:27.443 (444493709)|VALIDATION_FORMULA|AND
+(
+TPD_Own__c = TRUE,
+ISBLANK(TPD_Own_Sum_Insured__c)
+)|TPD_Own_Sum_Insured__c=null , TPD_Own__c=0
+17:30:27.443 (444499072)|VALIDATION_PASS
+17:30:27.443 (444501046)|VALIDATION_RULE|03d7F0000008b22|Trauma_Insurance_Info_Required
+17:30:27.443 (444572854)|VALIDATION_FORMULA|AND(
+ISBLANK(Trauma_Sum_Insured__c),
+Trauma_Critical_Illness__c = TRUE
+)|Trauma_Critical_Illness__c=0 , Trauma_Sum_Insured__c=null
+17:30:27.443 (444578292)|VALIDATION_PASS
+17:30:27.443 (444580384)|VALIDATION_RULE|03d7F0000008cne|Communication_Required
+17:30:27.443 (444767059)|VALIDATION_FORMULA|AND( 
+ISBLANK(Account.PersonContact.Phone),
+ISBLANK( Account.PersonContact.HomePhone),
+ISBLANK( Account.PersonContact.MobilePhone ),
+ISBLANK( Account.PersonContact.Email)
+)|Account.PersonContact.Email=anishmarathe007@gmail.com , Account.PersonContact.MobilePhone=null , Account.PersonContact.Phone=null , Account.PersonContact.HomePhone=null
+17:30:27.443 (444774575)|VALIDATION_PASS
+17:30:27.443 (444777147)|VALIDATION_RULE|03d7F0000008cnK|DOB_on_PA_Required
+17:30:27.443 (444862519)|VALIDATION_FORMULA|ISBLANK(Account.PersonContact.Date_of_Birth__c)|Account.PersonContact.Date_of_Birth__c=1967-09-14 00:00:00
+17:30:27.443 (444868749)|VALIDATION_PASS
+17:30:27.443 (444870778)|VALIDATION_RULE|03d7F0000008cnF|Email_on_PA_Required
+17:30:27.443 (444936451)|VALIDATION_FORMULA|Account.PersonContact.Email= ""|Account.PersonContact.Email=anishmarathe007@gmail.com
+17:30:27.443 (444941642)|VALIDATION_PASS
+17:30:27.443 (444943544)|VALIDATION_RULE|03d7F0000008fVY|First_Name_Required
+17:30:27.443 (445047795)|VALIDATION_FORMULA|Account.PersonContact.FirstName = ""|Account.PersonContact.FirstName=Will
+17:30:27.443 (445054583)|VALIDATION_PASS
+17:30:27.443 (445056901)|VALIDATION_RULE|03d7F0000008cnA|Gender_on_PA_Required
+17:30:27.443 (445142596)|VALIDATION_FORMULA|ISPICKVAL(Account.PersonContact.Gender__c,"")|Account.PersonContact.Gender__c=Female
+17:30:27.443 (445148947)|VALIDATION_PASS
+17:30:27.443 (445150984)|VALIDATION_RULE|03d7F0000008g46|Lead_Source_Required
+17:30:27.443 (445208185)|VALIDATION_FORMULA|ISPICKVAL(LeadSource,"")|LeadSource=RAC - Canstar - Life
+17:30:27.443 (445213354)|VALIDATION_PASS
+17:30:27.443 (445215507)|VALIDATION_RULE|03d5h000000oPXI|Life_Decreasing_Reducing_Cover_Limit
+17:30:27.443 (445281589)|VALIDATION_FORMULA|OR(
+ Life_Decreasing_Reducing_Cover__c > 0.10,
+ Life_Decreasing_Reducing_Cover__c < 0.0)|Life_Decreasing_Reducing_Cover__c=null
+17:30:27.443 (445287116)|VALIDATION_PASS
+17:30:27.443 (445289125)|VALIDATION_RULE|03d7F0000008cnP|Occupation_Category_on_PA_Required
+17:30:27.443 (445387659)|VALIDATION_FORMULA|ISPICKVAL(Account.PersonContact.Occupation_Category__c,"")|Account.PersonContact.Occupation_Category__c=Medium blue collar
+17:30:27.443 (445394699)|VALIDATION_PASS
+17:30:27.443 (445396885)|VALIDATION_RULE|03d7F0000008cnU|Smoker_Status_on_PA_Required
+17:30:27.443 (445475602)|VALIDATION_FORMULA|ISPICKVAL(Account.Smoker__c ,"")|Account.Smoker__c=Non-smoker
+17:30:27.443 (445480822)|VALIDATION_PASS
+17:30:27.443 (445482893)|VALIDATION_RULE|03d5h000000oPXJ|TPD_Any_Decreasing_Reducing_Cover_Limit
+17:30:27.443 (445547080)|VALIDATION_FORMULA|OR(
+ TPD_Any_Decreasing_Reducing_Cover__c > 0.10,
+ TPD_Any_Decreasing_Reducing_Cover__c < 0.0)|TPD_Any_Decreasing_Reducing_Cover__c=null
+17:30:27.443 (445552732)|VALIDATION_PASS
+17:30:27.443 (445554692)|VALIDATION_RULE|03d5h000000oPXK|TPD_Own_Decreasing_Reducing_Cover_Limit
+17:30:27.443 (445609880)|VALIDATION_FORMULA|OR(
+ TPD_Own_Decreasing_Reducing_Cover__c > 0.10,
+ TPD_Own_Decreasing_Reducing_Cover__c < 0.0)|TPD_Own_Decreasing_Reducing_Cover__c=null
+17:30:27.443 (445614864)|VALIDATION_PASS
+17:30:27.443 (445616638)|VALIDATION_RULE|03d5h000000oPXL|Trauma_Decreasing_Reducing_Cover_Limit
+17:30:27.443 (445669916)|VALIDATION_FORMULA|OR(
+ Trauma_Decreasing_Reducing_Cover__c > 0.10,
+ Trauma_Decreasing_Reducing_Cover__c < 0.0)|Trauma_Decreasing_Reducing_Cover__c=null
+17:30:27.443 (445674943)|VALIDATION_PASS
+17:30:27.443 (445684746)|CODE_UNIT_FINISHED|Validation:Opportunity:0068s000002p3SX
+17:30:27.498 (498581755)|CODE_UNIT_STARTED|[EXTERNAL]|01q7F000000YYdf|UpdateQuoteonNewOppty on Opportunity trigger event AfterUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.498 (498666139)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.498 (498724314)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.498 (498833464)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.498 (498844740)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.498 (498924645)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x61edd42d
+17:30:27.498 (498983458)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.498 (498993068)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.498 (499013905)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x61edd42d
+17:30:27.498 (499025998)|STATEMENT_EXECUTE|[7]
+17:30:27.498 (499028928)|STATEMENT_EXECUTE|[9]
+17:30:27.498 (499080131)|HEAP_ALLOCATE|[9]|Bytes:4
+17:30:27.498 (499104292)|HEAP_ALLOCATE|[9]|Bytes:46
+17:30:27.498 (499126342)|USER_DEBUG|[9]|DEBUG|RecursiveTriggerCheck.isFirstTimeUpdate-->true
+17:30:27.498 (499139971)|STATEMENT_EXECUTE|[10]
+17:30:27.498 (499154373)|HEAP_ALLOCATE|[10]|Bytes:4
+17:30:27.498 (499167304)|HEAP_ALLOCATE|[10]|Bytes:40
+17:30:27.498 (499177135)|USER_DEBUG|[10]|DEBUG|RecursiveTriggerCheck.isFirstTime-->true
+17:30:27.498 (499186267)|STATEMENT_EXECUTE|[12]
+17:30:27.498 (499197814)|METHOD_ENTRY|[12]||System.Test.isRunningTest()
+17:30:27.498 (499222343)|METHOD_EXIT|[12]||System.Test.isRunningTest()
+17:30:27.498 (499236377)|HEAP_ALLOCATE|[12]|Bytes:5
+17:30:27.498 (499248202)|HEAP_ALLOCATE|[12]|Bytes:29
+17:30:27.498 (499259888)|USER_DEBUG|[12]|DEBUG|Test.isRunningTest() -->false
+17:30:27.498 (499324051)|STATEMENT_EXECUTE|[42]
+17:30:27.498 (499418166)|HEAP_ALLOCATE|[44]|Bytes:5
+17:30:27.498 (499455626)|VARIABLE_SCOPE_BEGIN|[44]|opp|Opportunity|true|false
+17:30:27.498 (503545967)|VARIABLE_ASSIGNMENT|[44]|opp|{"LastModifiedDate":"2023-01-06T06:30:28.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:28.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0xfcd8713
+17:30:27.498 (503614704)|STATEMENT_EXECUTE|[44]
+17:30:27.498 (503618269)|STATEMENT_EXECUTE|[46]
+17:30:27.498 (503696416)|VARIABLE_SCOPE_BEGIN|[46]|opportunityRecord|Opportunity|true|false
+17:30:27.498 (507140006)|VARIABLE_ASSIGNMENT|[46]|opportunityRecord|{"LastModifiedDate":"2023-01-06T06:30:27.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:27.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x14aafe0e
+17:30:27.498 (507257682)|STATEMENT_EXECUTE|[48]
+17:30:27.498 (507282191)|HEAP_ALLOCATE|[44]|Bytes:5
+17:30:27.498 (507303995)|VARIABLE_ASSIGNMENT|[44]|opp|null|
+17:30:27.507 (507318098)|CUMULATIVE_LIMIT_USAGE
+17:30:27.507 (507318098)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 1 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 26 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:30:27.507 (507318098)|CUMULATIVE_LIMIT_USAGE_END
+
+17:30:27.498 (507487981)|CODE_UNIT_FINISHED|UpdateQuoteonNewOppty on Opportunity trigger event AfterUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.286 (514354547)|FLOW_START_INTERVIEWS_END|1
+17:30:27.286 (514410430)|FLOW_INTERVIEW_FINISHED|26266bb4dffaf7399b7f11932fc918585737a18-14d6|Contact Phone on Opp
+17:30:27.0 (517332261)|WF_FLOW_ACTION_END|09L7F000000gCN3
+17:30:27.518 (518564832)|FLOW_CREATE_INTERVIEW_BEGIN|00D8s000000zTGP|3007F0000000Dtx|3018s000008aWCt
+17:30:27.518 (519308332)|FLOW_CREATE_INTERVIEW_END|26276bb4dffaf7399b7f11932fc918585737a18-14d7|Web Call back event on Opp
+17:30:27.0 (519362147)|WF_FLOW_ACTION_BEGIN|09L8s000000ICcD
+17:30:27.519 (519953520)|FLOW_START_INTERVIEWS_BEGIN|1
+17:30:27.519 (519985120)|FLOW_START_INTERVIEW_BEGIN|26276bb4dffaf7399b7f11932fc918585737a18-14d7|Web Call back event on Opp
+17:30:27.519 (527547275)|FLOW_START_INTERVIEW_END|26276bb4dffaf7399b7f11932fc918585737a18-14d7|Web Call back event on Opp
+17:30:27.519 (527568464)|FLOW_START_INTERVIEWS_END|1
+17:30:27.519 (527579317)|FLOW_INTERVIEW_FINISHED|26276bb4dffaf7399b7f11932fc918585737a18-14d7|Web Call back event on Opp
+17:30:27.0 (529950468)|WF_FLOW_ACTION_END|09L8s000000ICcD
+17:30:27.531 (531910892)|FLOW_CREATE_INTERVIEW_BEGIN|00D8s000000zTGP|3009600000005ft|301960000000RiI
+17:30:27.531 (533789525)|FLOW_CREATE_INTERVIEW_END|26286bb4dffaf7399b7f11932fc918585737a18-14d8|Pendula - Populate PersonContact on Opp
+17:30:27.0 (533902863)|WF_FLOW_ACTION_BEGIN|09L9600000004d5
+17:30:27.534 (534820432)|FLOW_START_INTERVIEWS_BEGIN|1
+17:30:27.534 (534867697)|FLOW_START_INTERVIEW_BEGIN|26286bb4dffaf7399b7f11932fc918585737a18-14d8|Pendula - Populate PersonContact on Opp
+17:30:27.534 (546889976)|FLOW_START_INTERVIEW_END|26286bb4dffaf7399b7f11932fc918585737a18-14d8|Pendula - Populate PersonContact on Opp
+17:30:27.534 (546917704)|FLOW_START_INTERVIEWS_END|1
+17:30:27.534 (546930579)|FLOW_INTERVIEW_FINISHED|26286bb4dffaf7399b7f11932fc918585737a18-14d8|Pendula - Populate PersonContact on Opp
+17:30:27.0 (550019974)|WF_FLOW_ACTION_END|09L9600000004d5
+17:30:27.551 (551336837)|FLOW_CREATE_INTERVIEW_BEGIN|00D8s000000zTGP|3007F000000g51g|3017F000000K0z4
+17:30:27.551 (552043670)|FLOW_CREATE_INTERVIEW_END|26296bb4dffaf7399b7f11932fc918585737a18-14d9|Map Channel Category on Opp
+17:30:27.0 (552102137)|WF_FLOW_ACTION_BEGIN|09L8s000000HsOz
+17:30:27.552 (552757086)|FLOW_START_INTERVIEWS_BEGIN|1
+17:30:27.552 (552794806)|FLOW_START_INTERVIEW_BEGIN|26296bb4dffaf7399b7f11932fc918585737a18-14d9|Map Channel Category on Opp
+17:30:27.552 (561631884)|FLOW_START_INTERVIEW_END|26296bb4dffaf7399b7f11932fc918585737a18-14d9|Map Channel Category on Opp
+17:30:27.552 (561656582)|FLOW_START_INTERVIEWS_END|1
+17:30:27.552 (561669505)|FLOW_INTERVIEW_FINISHED|26296bb4dffaf7399b7f11932fc918585737a18-14d9|Map Channel Category on Opp
+17:30:27.0 (564501978)|WF_FLOW_ACTION_END|09L8s000000HsOz
+17:30:27.0 (564561782)|WF_RULE_EVAL_BEGIN|Workflow
+17:30:27.0 (564574452)|WF_SPOOL_ACTION_BEGIN|Workflow
+17:30:27.0 (564589787)|WF_ACTION| None
+17:30:27.0 (564594792)|WF_RULE_EVAL_END
+17:30:27.0 (564626184)|WF_TIME_TRIGGERS_BEGIN
+17:30:27.0 (582824484)|WF_ACTIONS_END| Flow Trigger: 4;
+17:30:27.0 (582854215)|CODE_UNIT_FINISHED|Workflow:Opportunity
+17:30:27.0 (584698903)|CODE_UNIT_STARTED|[EXTERNAL]|Flow:Opportunity
+17:30:27.586 (586041553)|FLOW_CREATE_INTERVIEW_BEGIN|00D8s000000zTGP|3009600000007QE|301960000000iU6
+17:30:27.586 (586099627)|FLOW_CREATE_INTERVIEW_END|26306bb4dffaf7399b7f11932fc918585737a18-14da|Lock/Unlock Opportunity Record Type
+17:30:27.586 (586331827)|FLOW_START_INTERVIEWS_BEGIN|1
+17:30:27.586 (586377482)|FLOW_START_INTERVIEW_BEGIN|26306bb4dffaf7399b7f11932fc918585737a18-14da|Lock/Unlock Opportunity Record Type
+17:30:27.586 (586515291)|FLOW_START_INTERVIEW_END|26306bb4dffaf7399b7f11932fc918585737a18-14da|Lock/Unlock Opportunity Record Type
+17:30:27.586 (600359260)|FLOW_START_INTERVIEWS_END|1
+17:30:27.586 (600386196)|FLOW_INTERVIEW_FINISHED|26306bb4dffaf7399b7f11932fc918585737a18-14da|Lock/Unlock Opportunity Record Type
+17:30:27.603 (603247376)|FLOW_CREATE_INTERVIEW_BEGIN|00D8s000000zTGP|3008s000004gPXZ|3018s000008wjub
+17:30:27.603 (603294925)|FLOW_CREATE_INTERVIEW_END|26316bb4dffaf7399b7f11932fc918585737a18-14db|Identify Call Strategy
+17:30:27.603 (603503589)|FLOW_START_INTERVIEWS_BEGIN|1
+17:30:27.603 (603547124)|FLOW_START_INTERVIEW_BEGIN|26316bb4dffaf7399b7f11932fc918585737a18-14db|Identify Call Strategy
+17:30:27.603 (603664195)|FLOW_START_INTERVIEW_END|26316bb4dffaf7399b7f11932fc918585737a18-14db|Identify Call Strategy
+17:30:27.682 (682897243)|CODE_UNIT_STARTED|[EXTERNAL]|01p8s000001Vua1|EvaluateNextContactTime.calculateNextContactTime(List<EvaluateNextContactTime.InputVariable>)
+17:30:27.682 (683118388)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+17:30:27.682 (683135718)|VARIABLE_SCOPE_BEGIN|[21]|this|EvaluateNextContactTime.InputVariable|true|false
+17:30:27.682 (683213828)|VARIABLE_ASSIGNMENT|[21]|this|{}|0x35bd58bd
+17:30:27.682 (683262665)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+17:30:27.682 (683310071)|STATEMENT_EXECUTE|[21]
+17:30:27.682 (683312649)|STATEMENT_EXECUTE|[24]
+17:30:27.682 (683314827)|STATEMENT_EXECUTE|[27]
+17:30:27.682 (683371138)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.682 (683375831)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+17:30:27.682 (688615178)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.oppRecord|{"LastModifiedDate":"2023-01-06T06:30:28.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0.0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.0,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399.0,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1.0,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0.0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0.0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0.0,"StageName":"ENQ - Enquiry","Declined__c":0.0,"Residing_State__c":"NT","Total_Call_Attempts__c":0.0,"Email_2_4_Sent__c":false,"Probability":0.0,"SystemModstamp":"2023-01-06T06:30:28.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0.0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1.0,"TPD_Any_Sum_Insured__c":0.0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0.0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.0,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0.0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x35bd58bd
+17:30:27.682 (688731654)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+17:30:27.682 (688738269)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+17:30:27.682 (688791933)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.callStrategyRecord|{"Active__c":true,"Business_Hours__c":"01m8s000000D5ptAAC","Call_Strategy_Type__c":"Unqualified","CreatedById":"0057F000000YZxzQAG","CreatedDate":"2022-12-12T06:19:08.000Z","Flow_Type__c":"TeleSales","Id":"a0P8s000000itYlEAI","IsDeleted":false,"LastModifiedById":"0057F000000YZxzQAG","LastModifiedDate":"2022-12-21T04:44:45.000Z","LastReferencedDate":"2022-12-22T10:01:30.000Z","LastViewedDate":"2022-12-22T10:01:30.000Z","Name":"RAC &#124; Agent &#124; Unqual (5 more) ...","Opportunity_Stages__c":"UNQ - Unqualified;EN (11 more) ...","OwnerId":"0057F000000YZxzQAG","Partner__c":"RAC","Same_Day_Calls__c":2.0,"SystemModstamp":"2022-12-21T04:44:45.000Z"}|0x35bd58bd
+17:30:27.682 (688811287)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.682 (688892967)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:28
+17:30:27.682 (688899433)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:26
+17:30:27.682 (688903336)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:19
+17:30:27.682 (688918903)|METHOD_ENTRY|[1]|01p8s000001Vua1|EvaluateNextContactTime.EvaluateNextContactTime()
+17:30:27.682 (688925187)|STATEMENT_EXECUTE|[1]
+17:30:27.682 (688931290)|STATEMENT_EXECUTE|[1]
+17:30:27.682 (688933387)|STATEMENT_EXECUTE|[21]
+17:30:27.682 (688935279)|STATEMENT_EXECUTE|[30]
+17:30:27.682 (688942210)|METHOD_EXIT|[1]|EvaluateNextContactTime
+17:30:27.682 (688980916)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.682 (688988745)|VARIABLE_SCOPE_BEGIN|[36]|inputVariables|List<EvaluateNextContactTime.InputVariable>|true|false
+17:30:27.682 (689023346)|VARIABLE_ASSIGNMENT|[36]|inputVariables|[{"callStrategyRecord":"0x2814552f","oppRecord":"0x77339820"}]|0x78647dbe
+17:30:27.682 (689036180)|STATEMENT_EXECUTE|[36]
+17:30:27.682 (689038317)|STATEMENT_EXECUTE|[37]
+17:30:27.682 (689057652)|VARIABLE_SCOPE_BEGIN|[37]|nextContactTime|Datetime|false|false
+17:30:27.682 (689072820)|VARIABLE_ASSIGNMENT|[37]|nextContactTime|null
+17:30:27.682 (689077344)|STATEMENT_EXECUTE|[38]
+17:30:27.682 (689148165)|HEAP_ALLOCATE|[38]|Bytes:12
+17:30:27.682 (689164803)|VARIABLE_SCOPE_BEGIN|[38]|oppRecord|Opportunity|true|false
+17:30:27.682 (692606802)|VARIABLE_ASSIGNMENT|[38]|oppRecord|{"LastModifiedDate":"2023-01-06T06:30:28.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0.0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.0,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399.0,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1.0,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0.0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0.0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0.0,"StageName":"ENQ - Enquiry","Declined__c":0.0,"Residing_State__c":"NT","Total_Call_Attempts__c":0.0,"Email_2_4_Sent__c":false,"Probability":0.0,"SystemModstamp":"2023-01-06T06:30:28.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0.0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1.0,"TPD_Any_Sum_Insured__c":0.0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0.0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.0,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0.0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x77339820
+17:30:27.682 (692660069)|STATEMENT_EXECUTE|[39]
+17:30:27.682 (692682731)|HEAP_ALLOCATE|[39]|Bytes:12
+17:30:27.682 (692699197)|VARIABLE_SCOPE_BEGIN|[39]|callStrategyRecord|Call_Strategy__c|true|false
+17:30:27.682 (692744479)|VARIABLE_ASSIGNMENT|[39]|callStrategyRecord|{"Active__c":true,"Business_Hours__c":"01m8s000000D5ptAAC","Call_Strategy_Type__c":"Unqualified","CreatedById":"0057F000000YZxzQAG","CreatedDate":"2022-12-12T06:19:08.000Z","Flow_Type__c":"TeleSales","Id":"a0P8s000000itYlEAI","IsDeleted":false,"LastModifiedById":"0057F000000YZxzQAG","LastModifiedDate":"2022-12-21T04:44:45.000Z","LastReferencedDate":"2022-12-22T10:01:30.000Z","LastViewedDate":"2022-12-22T10:01:30.000Z","Name":"RAC &#124; Agent &#124; Unqual (5 more) ...","Opportunity_Stages__c":"UNQ - Unqualified;EN (11 more) ...","OwnerId":"0057F000000YZxzQAG","Partner__c":"RAC","Same_Day_Calls__c":2.0,"SystemModstamp":"2022-12-21T04:44:45.000Z"}|0x2814552f
+17:30:27.682 (692757684)|STATEMENT_EXECUTE|[40]
+17:30:27.682 (692818152)|HEAP_ALLOCATE|[40]|Bytes:18
+17:30:27.682 (692826485)|VARIABLE_SCOPE_BEGIN|[40]|bHoursId|String|false|false
+17:30:27.682 (692837587)|VARIABLE_ASSIGNMENT|[40]|bHoursId|"01m8s000000D5ptAAC"
+17:30:27.682 (692851218)|STATEMENT_EXECUTE|[43]
+17:30:27.682 (694337568)|VARIABLE_ASSIGNMENT|[43]|this.Opportunity_Last_Called__c|"2022-12-22T09:51:43.000Z"|0x77339820
+17:30:27.682 (694351943)|STATEMENT_EXECUTE|[46]
+17:30:27.682 (694392751)|METHOD_ENTRY|[46]|01p8s000001Vua1|EvaluateNextContactTime.getResidingStateRecord(String)
+17:30:27.682 (694469943)|VARIABLE_SCOPE_BEGIN|[138]|oppResidingState|String|false|false
+17:30:27.682 (694512733)|VARIABLE_ASSIGNMENT|[138]|oppResidingState|"NT"
+17:30:27.682 (694521688)|STATEMENT_EXECUTE|[138]
+17:30:27.682 (694523950)|STATEMENT_EXECUTE|[139]
+17:30:27.682 (694529383)|VARIABLE_SCOPE_BEGIN|[139]|residingState|Residing_State_Timezones__c|true|false
+17:30:27.682 (694553645)|VARIABLE_ASSIGNMENT|[139]|residingState|null|
+17:30:27.682 (694558069)|STATEMENT_EXECUTE|[140]
+17:30:27.682 (694560025)|STATEMENT_EXECUTE|[140]
+17:30:27.682 (694561987)|STATEMENT_EXECUTE|[141]
+17:30:27.682 (694568162)|HEAP_ALLOCATE|[141]|Bytes:100
+17:30:27.682 (694596369)|HEAP_ALLOCATE|[141]|Bytes:4
+17:30:27.682 (694611271)|HEAP_ALLOCATE|[141]|Bytes:7
+17:30:27.682 (695152324)|SOQL_EXECUTE_BEGIN|[141]|Aggregations:0|SELECT Id, Next_Day_Call_Time__c FROM Residing_State_Timezones__c WHERE Residing_State__c = :tmpVar1
+17:30:27.682 (700696786)|SOQL_EXECUTE_END|[141]|Rows:1
+17:30:27.682 (700729780)|HEAP_ALLOCATE|[141]|Bytes:8
+17:30:27.682 (700761846)|HEAP_ALLOCATE|[141]|Bytes:58
+17:30:27.682 (700832552)|HEAP_ALLOCATE|[141]|Bytes:8
+17:30:27.682 (700895452)|HEAP_ALLOCATE|[141]|Bytes:12
+17:30:27.682 (700969967)|VARIABLE_ASSIGNMENT|[141]|residingState|{"Id":"a108s00000Br7hlAAB","Next_Day_Call_Time__c":39600000}|0x27ef4caf
+17:30:27.682 (700979223)|STATEMENT_EXECUTE|[147]
+17:30:27.682 (700988183)|METHOD_EXIT|[46]|01p8s000001Vua1|EvaluateNextContactTime.getResidingStateRecord(String)
+17:30:27.682 (700997384)|VARIABLE_SCOPE_BEGIN|[46]|residingState|Residing_State_Timezones__c|true|false
+17:30:27.682 (701075300)|VARIABLE_ASSIGNMENT|[46]|residingState|{"Id":"a108s00000Br7hlAAB","Next_Day_Call_Time__c":39600000}|0x27ef4caf
+17:30:27.682 (701185241)|HEAP_ALLOCATE|[48]|Bytes:56
+17:30:27.682 (701229991)|STATEMENT_EXECUTE|[66]
+17:30:27.682 (701290458)|HEAP_ALLOCATE|[68]|Bytes:13
+17:30:27.682 (701307212)|SYSTEM_METHOD_ENTRY|[1]|BusinessHours.BusinessHours()
+17:30:27.682 (701310901)|STATEMENT_EXECUTE|[1]
+17:30:27.682 (701319953)|SYSTEM_METHOD_EXIT|[1]|BusinessHours
+17:30:27.682 (701331230)|METHOD_ENTRY|[68]||System.BusinessHours.isWithin(String, Datetime)
+17:30:27.682 (703635856)|METHOD_EXIT|[68]||System.BusinessHours.isWithin(String, Datetime)
+17:30:27.682 (703648671)|STATEMENT_EXECUTE|[68]
+17:30:27.682 (703743212)|STATEMENT_EXECUTE|[70]
+17:30:27.682 (703747106)|STATEMENT_EXECUTE|[72]
+17:30:27.682 (703782498)|VARIABLE_ASSIGNMENT|[72]|nextContactTime|"2022-12-22T11:00:00.000Z"
+17:30:27.682 (703794220)|STATEMENT_EXECUTE|[112]
+17:30:27.682 (703857935)|HEAP_ALLOCATE|[112]|Bytes:4
+17:30:27.682 (703934456)|VARIABLE_SCOPE_BEGIN|[112]|rVariables|List<EvaluateNextContactTime.ReturnVariable>|true|false
+17:30:27.682 (703962713)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.682 (703977136)|VARIABLE_ASSIGNMENT|[112]|rVariables|[]|0xeefad59
+17:30:27.682 (703983041)|STATEMENT_EXECUTE|[113]
+17:30:27.682 (704013990)|HEAP_ALLOCATE|[113]|Bytes:8
+17:30:27.682 (704032011)|CONSTRUCTOR_ENTRY|[113]|01p8s000001Vua1|<init>()|EvaluateNextContactTime.ReturnVariable
+17:30:27.682 (704054285)|VARIABLE_SCOPE_BEGIN|[30]|this|EvaluateNextContactTime.ReturnVariable|true|false
+17:30:27.682 (704091817)|VARIABLE_ASSIGNMENT|[30]|this|{}|0x341234b6
+17:30:27.682 (704116960)|STATEMENT_EXECUTE|[30]
+17:30:27.682 (704120053)|STATEMENT_EXECUTE|[32]
+17:30:27.682 (704124044)|CONSTRUCTOR_EXIT|[113]|01p8s000001Vua1|<init>()|EvaluateNextContactTime.ReturnVariable
+17:30:27.682 (704130386)|VARIABLE_SCOPE_BEGIN|[113]|rVariable|EvaluateNextContactTime.ReturnVariable|true|false
+17:30:27.682 (704144243)|VARIABLE_ASSIGNMENT|[113]|rVariable|{}|0x341234b6
+17:30:27.682 (704149445)|STATEMENT_EXECUTE|[114]
+17:30:27.682 (704197777)|VARIABLE_ASSIGNMENT|[114]|this.nextContactTime|"2022-12-22T11:00:00.000Z"|0x341234b6
+17:30:27.682 (704204436)|STATEMENT_EXECUTE|[115]
+17:30:27.682 (704245447)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.682 (704255045)|STATEMENT_EXECUTE|[116]
+17:30:27.704 (704372601)|CUMULATIVE_LIMIT_USAGE
+17:30:27.704 (704372601)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 188 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:30:27.704 (704372601)|CUMULATIVE_LIMIT_USAGE_END
+
+17:30:27.682 (704419476)|CODE_UNIT_FINISHED|EvaluateNextContactTime.calculateNextContactTime(List<EvaluateNextContactTime.InputVariable>)
+17:30:27.728 (728257516)|CODE_UNIT_STARTED|[EXTERNAL]|01q7F000000YYdf|UpdateQuoteonNewOppty on Opportunity trigger event BeforeUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.728 (728340816)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.728 (728410888)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.728 (728508906)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.728 (728520599)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.728 (728597714)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x410abbe8
+17:30:27.728 (728634114)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.728 (728640771)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.728 (728652610)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x410abbe8
+17:30:27.728 (728661609)|STATEMENT_EXECUTE|[7]
+17:30:27.728 (728664102)|STATEMENT_EXECUTE|[9]
+17:30:27.728 (728706505)|HEAP_ALLOCATE|[9]|Bytes:4
+17:30:27.728 (728724548)|HEAP_ALLOCATE|[9]|Bytes:46
+17:30:27.728 (728745325)|USER_DEBUG|[9]|DEBUG|RecursiveTriggerCheck.isFirstTimeUpdate-->true
+17:30:27.728 (728755575)|STATEMENT_EXECUTE|[10]
+17:30:27.728 (728765748)|HEAP_ALLOCATE|[10]|Bytes:4
+17:30:27.728 (728774948)|HEAP_ALLOCATE|[10]|Bytes:40
+17:30:27.728 (728782358)|USER_DEBUG|[10]|DEBUG|RecursiveTriggerCheck.isFirstTime-->true
+17:30:27.728 (728790388)|STATEMENT_EXECUTE|[12]
+17:30:27.728 (728798939)|METHOD_ENTRY|[12]||System.Test.isRunningTest()
+17:30:27.728 (728816486)|METHOD_EXIT|[12]||System.Test.isRunningTest()
+17:30:27.728 (728826035)|HEAP_ALLOCATE|[12]|Bytes:5
+17:30:27.728 (728835143)|HEAP_ALLOCATE|[12]|Bytes:29
+17:30:27.728 (728842547)|USER_DEBUG|[12]|DEBUG|Test.isRunningTest() -->false
+17:30:27.728 (728899758)|STATEMENT_EXECUTE|[57]
+17:30:27.728 (728902123)|STATEMENT_EXECUTE|[59]
+17:30:27.728 (728908142)|USER_DEBUG|[59]|DEBUG|Triggered.
+17:30:27.728 (728985065)|HEAP_ALLOCATE|[61]|Bytes:5
+17:30:27.728 (729004671)|HEAP_ALLOCATE|[61]|Bytes:4
+17:30:27.728 (729018748)|VARIABLE_SCOPE_BEGIN|[61]|opp|Opportunity|true|false
+17:30:27.728 (733566445)|VARIABLE_ASSIGNMENT|[61]|opp|{"LastModifiedDate":"2023-01-06T06:30:28.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:28.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Last_Called__c":"2022-12-22T09:51:43.000Z","Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x68913fb1
+17:30:27.728 (733631525)|STATEMENT_EXECUTE|[61]
+17:30:27.728 (733634406)|STATEMENT_EXECUTE|[63]
+17:30:27.728 (733722508)|VARIABLE_SCOPE_BEGIN|[63]|opportunityRecord|Opportunity|true|false
+17:30:27.728 (737700833)|VARIABLE_ASSIGNMENT|[63]|opportunityRecord|{"LastModifiedDate":"2023-01-06T06:30:28.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:28.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x7163e413
+17:30:27.728 (737749214)|STATEMENT_EXECUTE|[66]
+17:30:27.728 (737785835)|HEAP_ALLOCATE|[66]|Bytes:24
+17:30:27.728 (737843775)|USER_DEBUG|[66]|DEBUG|Old Opp App Status: null
+17:30:27.728 (737854690)|STATEMENT_EXECUTE|[67]
+17:30:27.728 (737867193)|HEAP_ALLOCATE|[67]|Bytes:24
+17:30:27.728 (737875558)|USER_DEBUG|[67]|DEBUG|New Opp App Status: null
+17:30:27.728 (737899222)|STATEMENT_EXECUTE|[69]
+17:30:27.728 (737907975)|STATEMENT_EXECUTE|[73]
+17:30:27.728 (737937455)|STATEMENT_EXECUTE|[76]
+17:30:27.728 (737968164)|HEAP_ALLOCATE|[61]|Bytes:5
+17:30:27.728 (738010724)|VARIABLE_ASSIGNMENT|[61]|opp|null|
+17:30:27.738 (738036707)|CUMULATIVE_LIMIT_USAGE
+17:30:27.738 (738036707)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 199 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:30:27.738 (738036707)|CUMULATIVE_LIMIT_USAGE_END
+
+17:30:27.728 (738214230)|CODE_UNIT_FINISHED|UpdateQuoteonNewOppty on Opportunity trigger event BeforeUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.743 (743671555)|CODE_UNIT_STARTED|[EXTERNAL]|Validation:Opportunity:0068s000002p3SX
+17:30:27.743 (743694547)|VALIDATION_RULE|03d7F0000008b1i|BE_Insurance_Info_Required
+17:30:27.743 (744052099)|VALIDATION_FORMULA|OR(
+ISBLANK(BE_Sum_Insured__c),
+ISPICKVAL(BE_Waiting_Period__c, "") 
+)
+&&Business_Expenses__c = TRUE|Business_Expenses__c=0 , BE_Waiting_Period__c=null , BE_Sum_Insured__c=null
+17:30:27.743 (744065615)|VALIDATION_PASS
+17:30:27.743 (744068464)|VALIDATION_RULE|03d7F0000008b1n|IP_Insurance_Info_Required
+17:30:27.743 (744301613)|VALIDATION_FORMULA|OR(
+ISBLANK(IP_Sum_Insured__c),
+ISPICKVAL(IP_Waiting_Period__c, ""),
+ISPICKVAL(IP_Benefit_Period__c, "") 
+)
+&&Income_Protection_Salary_Continuance__c = TRUE|IP_Benefit_Period__c=null , IP_Waiting_Period__c=null , IP_Sum_Insured__c=null , Income_Protection_Salary_Continuance__c=0
+17:30:27.743 (744321734)|VALIDATION_PASS
+17:30:27.743 (744324280)|VALIDATION_RULE|03d7F0000008b1s|Life_Insurance_Info_Required
+17:30:27.743 (744426930)|VALIDATION_FORMULA|AND(
+ISBLANK(Life_Sum_Insured__c),
+Life_Insurance__c = TRUE
+)|Life_Sum_Insured__c=null , Life_Insurance__c=0
+17:30:27.743 (744433905)|VALIDATION_PASS
+17:30:27.743 (744436329)|VALIDATION_RULE|03d7F0000008b1d|Residing_State_Required
+17:30:27.743 (744497882)|VALIDATION_FORMULA|ISPICKVAL(Residing_State__c, "")|Residing_State__c=NT
+17:30:27.743 (744504225)|VALIDATION_PASS
+17:30:27.743 (744506212)|VALIDATION_RULE|03d7F0000008fVZ|TPD_Any_Insurance_Info_Required
+17:30:27.743 (744570286)|VALIDATION_FORMULA|AND
+(
+TPD_Any__c = TRUE,
+ISBLANK(TPD_Any_Sum_Insured__c)
+)|TPD_Any__c=0 , TPD_Any_Sum_Insured__c=0
+17:30:27.743 (744575978)|VALIDATION_PASS
+17:30:27.743 (744578182)|VALIDATION_RULE|03d7F0000008fVa|TPD_Own_Insurance_Info_Required
+17:30:27.743 (744670350)|VALIDATION_FORMULA|AND
+(
+TPD_Own__c = TRUE,
+ISBLANK(TPD_Own_Sum_Insured__c)
+)|TPD_Own_Sum_Insured__c=null , TPD_Own__c=0
+17:30:27.743 (744677224)|VALIDATION_PASS
+17:30:27.743 (744679375)|VALIDATION_RULE|03d7F0000008b22|Trauma_Insurance_Info_Required
+17:30:27.743 (744747593)|VALIDATION_FORMULA|AND(
+ISBLANK(Trauma_Sum_Insured__c),
+Trauma_Critical_Illness__c = TRUE
+)|Trauma_Critical_Illness__c=0 , Trauma_Sum_Insured__c=null
+17:30:27.743 (744753386)|VALIDATION_PASS
+17:30:27.743 (744755571)|VALIDATION_RULE|03d7F0000008cne|Communication_Required
+17:30:27.743 (744921742)|VALIDATION_FORMULA|AND( 
+ISBLANK(Account.PersonContact.Phone),
+ISBLANK( Account.PersonContact.HomePhone),
+ISBLANK( Account.PersonContact.MobilePhone ),
+ISBLANK( Account.PersonContact.Email)
+)|Account.PersonContact.Email=anishmarathe007@gmail.com , Account.PersonContact.MobilePhone=null , Account.PersonContact.Phone=null , Account.PersonContact.HomePhone=null
+17:30:27.743 (744929190)|VALIDATION_PASS
+17:30:27.743 (744931395)|VALIDATION_RULE|03d7F0000008cnK|DOB_on_PA_Required
+17:30:27.743 (745081055)|VALIDATION_FORMULA|ISBLANK(Account.PersonContact.Date_of_Birth__c)|Account.PersonContact.Date_of_Birth__c=1967-09-14 00:00:00
+17:30:27.743 (745090013)|VALIDATION_PASS
+17:30:27.743 (745092976)|VALIDATION_RULE|03d7F0000008cnF|Email_on_PA_Required
+17:30:27.743 (745176262)|VALIDATION_FORMULA|Account.PersonContact.Email= ""|Account.PersonContact.Email=anishmarathe007@gmail.com
+17:30:27.743 (745182766)|VALIDATION_PASS
+17:30:27.743 (745184901)|VALIDATION_RULE|03d7F0000008fVY|First_Name_Required
+17:30:27.743 (745289922)|VALIDATION_FORMULA|Account.PersonContact.FirstName = ""|Account.PersonContact.FirstName=Will
+17:30:27.743 (745296505)|VALIDATION_PASS
+17:30:27.743 (745298592)|VALIDATION_RULE|03d7F0000008cnA|Gender_on_PA_Required
+17:30:27.743 (745378758)|VALIDATION_FORMULA|ISPICKVAL(Account.PersonContact.Gender__c,"")|Account.PersonContact.Gender__c=Female
+17:30:27.743 (745384878)|VALIDATION_PASS
+17:30:27.743 (745386831)|VALIDATION_RULE|03d7F0000008g46|Lead_Source_Required
+17:30:27.743 (745444027)|VALIDATION_FORMULA|ISPICKVAL(LeadSource,"")|LeadSource=RAC - Canstar - Life
+17:30:27.743 (745450089)|VALIDATION_PASS
+17:30:27.743 (745452361)|VALIDATION_RULE|03d5h000000oPXI|Life_Decreasing_Reducing_Cover_Limit
+17:30:27.743 (745516645)|VALIDATION_FORMULA|OR(
+ Life_Decreasing_Reducing_Cover__c > 0.10,
+ Life_Decreasing_Reducing_Cover__c < 0.0)|Life_Decreasing_Reducing_Cover__c=null
+17:30:27.743 (745522368)|VALIDATION_PASS
+17:30:27.743 (745524518)|VALIDATION_RULE|03d7F0000008cnP|Occupation_Category_on_PA_Required
+17:30:27.743 (745638786)|VALIDATION_FORMULA|ISPICKVAL(Account.PersonContact.Occupation_Category__c,"")|Account.PersonContact.Occupation_Category__c=Medium blue collar
+17:30:27.743 (745646728)|VALIDATION_PASS
+17:30:27.743 (745649435)|VALIDATION_RULE|03d7F0000008cnU|Smoker_Status_on_PA_Required
+17:30:27.743 (745738648)|VALIDATION_FORMULA|ISPICKVAL(Account.Smoker__c ,"")|Account.Smoker__c=Non-smoker
+17:30:27.743 (745745029)|VALIDATION_PASS
+17:30:27.743 (745747132)|VALIDATION_RULE|03d5h000000oPXJ|TPD_Any_Decreasing_Reducing_Cover_Limit
+17:30:27.743 (745823524)|VALIDATION_FORMULA|OR(
+ TPD_Any_Decreasing_Reducing_Cover__c > 0.10,
+ TPD_Any_Decreasing_Reducing_Cover__c < 0.0)|TPD_Any_Decreasing_Reducing_Cover__c=null
+17:30:27.743 (745830015)|VALIDATION_PASS
+17:30:27.743 (745831966)|VALIDATION_RULE|03d5h000000oPXK|TPD_Own_Decreasing_Reducing_Cover_Limit
+17:30:27.743 (745890581)|VALIDATION_FORMULA|OR(
+ TPD_Own_Decreasing_Reducing_Cover__c > 0.10,
+ TPD_Own_Decreasing_Reducing_Cover__c < 0.0)|TPD_Own_Decreasing_Reducing_Cover__c=null
+17:30:27.743 (745895807)|VALIDATION_PASS
+17:30:27.743 (745897790)|VALIDATION_RULE|03d5h000000oPXL|Trauma_Decreasing_Reducing_Cover_Limit
+17:30:27.743 (745951984)|VALIDATION_FORMULA|OR(
+ Trauma_Decreasing_Reducing_Cover__c > 0.10,
+ Trauma_Decreasing_Reducing_Cover__c < 0.0)|Trauma_Decreasing_Reducing_Cover__c=null
+17:30:27.743 (745957237)|VALIDATION_PASS
+17:30:27.743 (745970305)|CODE_UNIT_FINISHED|Validation:Opportunity:0068s000002p3SX
+17:30:27.802 (802256014)|CODE_UNIT_STARTED|[EXTERNAL]|01q7F000000YYdf|UpdateQuoteonNewOppty on Opportunity trigger event AfterUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.802 (802373499)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.802 (802484708)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:30:27.802 (802621725)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.802 (802635082)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.802 (802717782)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x7db323ad
+17:30:27.802 (802756288)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:30:27.802 (802762832)|VARIABLE_SCOPE_BEGIN|[7]|this|UpdateQuoteonNewOppty|true|false
+17:30:27.802 (802773707)|VARIABLE_ASSIGNMENT|[7]|this|{}|0x7db323ad
+17:30:27.802 (802782246)|STATEMENT_EXECUTE|[7]
+17:30:27.802 (802784756)|STATEMENT_EXECUTE|[9]
+17:30:27.802 (802828163)|HEAP_ALLOCATE|[9]|Bytes:4
+17:30:27.802 (802846210)|HEAP_ALLOCATE|[9]|Bytes:46
+17:30:27.802 (802865462)|USER_DEBUG|[9]|DEBUG|RecursiveTriggerCheck.isFirstTimeUpdate-->true
+17:30:27.802 (802876486)|STATEMENT_EXECUTE|[10]
+17:30:27.802 (802886437)|HEAP_ALLOCATE|[10]|Bytes:4
+17:30:27.802 (802895427)|HEAP_ALLOCATE|[10]|Bytes:40
+17:30:27.802 (802903091)|USER_DEBUG|[10]|DEBUG|RecursiveTriggerCheck.isFirstTime-->true
+17:30:27.802 (802911250)|STATEMENT_EXECUTE|[12]
+17:30:27.802 (802920545)|METHOD_ENTRY|[12]||System.Test.isRunningTest()
+17:30:27.802 (802939795)|METHOD_EXIT|[12]||System.Test.isRunningTest()
+17:30:27.802 (802949313)|HEAP_ALLOCATE|[12]|Bytes:5
+17:30:27.802 (802970724)|HEAP_ALLOCATE|[12]|Bytes:29
+17:30:27.802 (802978924)|USER_DEBUG|[12]|DEBUG|Test.isRunningTest() -->false
+17:30:27.802 (803027728)|STATEMENT_EXECUTE|[42]
+17:30:27.802 (803104413)|HEAP_ALLOCATE|[44]|Bytes:5
+17:30:27.802 (803144060)|VARIABLE_SCOPE_BEGIN|[44]|opp|Opportunity|true|false
+17:30:27.802 (808839030)|VARIABLE_ASSIGNMENT|[44]|opp|{"LastModifiedDate":"2023-01-06T06:30:28.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:28.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Last_Called__c":"2022-12-22T09:51:43.000Z","Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x1cbee71d
+17:30:27.802 (808895545)|STATEMENT_EXECUTE|[44]
+17:30:27.802 (808898236)|STATEMENT_EXECUTE|[46]
+17:30:27.802 (808986311)|VARIABLE_SCOPE_BEGIN|[46]|opportunityRecord|Opportunity|true|false
+17:30:27.802 (812739879)|VARIABLE_ASSIGNMENT|[46]|opportunityRecord|{"LastModifiedDate":"2023-01-06T06:30:28.000Z","Opportunity_ID_18__c":"0068s000002p3SXAAY","Opportunity_Process__c":"_IM1_/resource/Lead_ (39 more) ...","Days_Overdue__c":0,"PersonContactId__c":"0038s000005rYzxAAE","Maximum_Monthly_Benefit_Eligibility__c":0.00,"CloseDate":"2023-01-07T00:00:00.000Z","Batch_Update__c":false,"HasOpenActivity":false,"Created_Within__c":21399,"Call_Strategy__c":"a0P8s000000itYlEAI","Life_Insurance__c":false,"Email_2_7_Sent__c":false,"NextContactTime__c":"2022-12-22T11:00:00.000Z","Opp_Nurture_Email_1_Sent__c":false,"TPD_Any_Decreasing_Insurance__c":false,"Product_Type__c":"RAC MPP","IsDeleted":false,"Quote_Age__c":1,"Email_2_4B_Sent__c":false,"Email_2_1A_Sent__c":false,"TPD_Any_Decreasing_Included_in_SMSF_Acc__c":false,"Partner__c":"RAC","Applications__c":0,"Gender__c":"Female","Outside_Bs_Hours__c":356.65,"Opp_Nurture_Email_4_Sent__c":false,"SMS_4_Sent__c":false,"Stand_Alone__c":false,"Time_to_ENFCD__c":"Less than 24 hours","Id":"0068s000002p3SXAAY","Email_2_3_Sent__c":false,"IsClosed":false,"Opp_Nurture_Email_2_Sent__c":false,"OwnerId":"0058s000002TeYnAAK","Life_Decreasing_Insurance__c":false,"RecordTypeId":"0127F0000008ozjQAA","Sales__c":0,"Flow_Type__c":"TeleSales","Next_Specified_Call__c":"2022-12-22T10:00:00.000Z","Call_Attempt__c":0,"StageName":"ENQ - Enquiry","Declined__c":0,"Residing_State__c":"NT","Total_Call_Attempts__c":0,"Email_2_4_Sent__c":false,"Probability":0,"SystemModstamp":"2023-01-06T06:30:28.000Z","Trauma_Stand_Alone_Decreasing__c":false,"SMS_5_Sent__c":false,"UW_Accepted__c":0,"Trauma_Critical_Illness__c":false,"Disability_Income_Insurance__c":false,"TPD_Own__c":false,"RAC_Opp_15_Reminder_EOFY__c":false,"PersonContact__c":"0038s000005rYzxAAE","AccountId":"0018s000008V2KHAA0","HasOpportunityLineItem":false,"TPD_Own_Decreasing_Insurance__c":false,"Life_Decreasing_Included_in_SMSF_Account__c":false,"NPW_2MF_EOFY_22_Reminder__c":false,"ForecastCategory":"Pipeline","Quote_Last_Updated_Date__c":"2022-12-22T09:51:42.000Z","Name":"Neha - RAC - LI","Do_Not_Call__c":false,"Opp_Nurture_Email_3_Sent__c":false,"CreatedById":"0058s000002TeYnAAK","Payment_Frequency__c":"Monthly","Quote_Expiry_Date__c":"2023-01-21T09:51:42.000Z","Quotes__c":1,"TPD_Any_Sum_Insured__c":0,"Opportunity_Created__c":"2022-12-22T09:51:43.000Z","Email_2_1_Sent__c":false,"Email_2_5_Sent__c":false,"Trauma_Decreasing_Insurance__c":false,"LeadSource":"RAC - Canstar - Life","Business_Expenses__c":false,"CreatedDate":"2022-12-22T09:51:43.000Z","HasOverdueTask":false,"Email_Opt_Out__c":false,"SMS_2_Sent__c":false,"Channel_Category__c":"RAC","ForecastCategoryName":"Pipeline","Opp_Communication_Counter__c":0,"PC_Timezones_Opportunity__c":"Australia/Perth","Life_Included_in_SMSF_Account__c":false,"Email_2_6_Sent__c":false,"NOL_NPW_2MF_EOFY_22__c":false,"IsWon":false,"SMS_Opt_Out__c":false,"Time_NBA_to_ENFCD__c":"Less than 24 hours","Sumo_Self_Scheduling_URL__c":"http://nobleoak.forc (155 more) ...","Comparing_Between_Channels__c":false,"TPD_Any__c":false,"Email_2_4A_Sent__c":false,"Date_Quote_Created__c":"2022-12-22T00:00:00.000Z","Initial_Assessment_Time__c":"Less than 24 hours","Next_Contact_Time_Overview__c":"2022-12-22 11: ","Disability_Income_Included_in_SMSF_Acc__c":false,"TPD_Any_Included_in_SMSF_Account__c":false,"Time_Since_Last_Contact__c":2.00,"Income_Protection_Salary_Continuance__c":false,"skipQuoteCalculation__c":false,"Unqualified_Call_Attempt__c":0,"SMS_3_Sent__c":false,"IsPrivate":false,"LastModifiedById":"0058s000002TeYnAAK","Email_2_1B_Sent__c":false,"Appointment_Reminder__c":false,"Milestone_Last_Updated_Date__c":"2022-12-22T11:00:00.000Z"}|0x7213cbe5
+17:30:27.802 (812856936)|STATEMENT_EXECUTE|[48]
+17:30:27.802 (812888747)|HEAP_ALLOCATE|[44]|Bytes:5
+17:30:27.802 (812913990)|VARIABLE_ASSIGNMENT|[44]|opp|null|
+17:30:27.812 (812928919)|CUMULATIVE_LIMIT_USAGE
+17:30:27.812 (812928919)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 199 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:30:27.812 (812928919)|CUMULATIVE_LIMIT_USAGE_END
+
+17:30:27.802 (813123194)|CODE_UNIT_FINISHED|UpdateQuoteonNewOppty on Opportunity trigger event AfterUpdate|__sfdc_trigger/UpdateQuoteonNewOppty
+17:30:27.603 (817890209)|FLOW_START_INTERVIEWS_END|1
+17:30:27.603 (817919724)|FLOW_INTERVIEW_FINISHED|26316bb4dffaf7399b7f11932fc918585737a18-14db|Identify Call Strategy
+17:30:27.0 (819154489)|CODE_UNIT_FINISHED|Flow:Opportunity
+17:30:27.0 (820836472)|CODE_UNIT_STARTED|[EXTERNAL]|Flow:Opportunity
+17:30:27.0 (820860294)|CODE_UNIT_FINISHED|Flow:Opportunity
+17:30:27.0 (874427236)|CODE_UNIT_FINISHED|TRIGGERS
+17:30:27.0 (874450386)|EXECUTION_FINISHED
